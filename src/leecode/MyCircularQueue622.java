@@ -3,7 +3,7 @@ package leecode;
 /**
  * 622 实现循环队列
  */
-public class MyCircularQueue {
+public class MyCircularQueue622 {
 
     private int[] array;
     private int front;//队头
@@ -12,7 +12,7 @@ public class MyCircularQueue {
 
 
     /** Initialize your data structure here. Set the size of the queue to be k. */
-    public MyCircularQueue(int k) {
+    public MyCircularQueue622(int k) {
         array = new int[k + 1];
         front = 0;
         rear = 0;
